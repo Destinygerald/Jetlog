@@ -1,0 +1,147 @@
+@media (max-width: 600px) {
+
+	.homepage {
+		padding-top: 44px;
+	}
+
+	.hero-sect-hdr {
+		width: 100% !important;
+		font-size: 2.2rem;
+		line-height: 3rem;
+	}
+
+	.hero-sect-cnt {
+		width: 100%;
+		font-weight: 500;
+	}
+
+	.hero-sect-img  {
+		height: 200px;
+	}
+
+	.hero-sect-img {
+		overflow: hidden;
+		height: 200px;
+		position: relative;
+	}
+
+	.hero-sect-img > img {
+		top: 0;
+		height: 100%;
+		width: 120%;
+	}
+
+	.hero-sect-btn {
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+
+	.hero-sect-btn > button {
+		padding: 12px 52px;
+		border-radius: 4px;
+		font-weight: 800;
+	}
+
+	.why-sect-hdr {
+		flex-direction: column;
+	}
+
+
+	.why-sect-hdr-left, .why-sect-hdr-right {
+		width: 100%;
+		align-items: center;
+	}
+
+	.why-sect-hdr-right {
+		text-align: center;
+		display: none;
+	}
+
+	.why-sect-hdr-left > div:last-child {
+		font-size: 1.6rem;
+		line-height: 2rem;
+		font-weight: 700;
+		text-align: center;
+	}
+
+	.why-sect-cnt {
+		flex-direction: column;
+		gap: 12px;
+	}
+
+	.why-card {
+		width: 100%;
+		height: 180px;
+	}
+
+	.services-sect-hdr {
+		width: 100%;
+	}
+
+	.services-sect-hdr > div:nth-child(2) {
+		font-size: 1.6rem;
+		line-height: 2rem;
+		font-weight: 700;
+	}
+
+	.services-sect-hdr > div:last-child {
+		display: none;
+	}
+
+	.services-sect-cnt {
+		flex-direction: column-reverse;
+		gap: 28px;
+	}
+
+	.services-sect-cnt-left {
+		width: 100%;
+	}
+
+	.services-sect-cnt-right {
+		width: 100%;
+	}
+
+	.services-sect-cnt-right > div:first-child {
+		display: none;
+	}
+
+	.services-sect-cnt-right > button {
+		width: 60%;
+	}
+
+	.testimonials {
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.testimonials-img {
+		height: 240px;
+	}
+
+	.testimonials-hdr-left {
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	.testimonials-hdr-left > span:last-child {
+		font-size: 1.6rem;
+		line-height: 2rem;
+		font-weight: 700;
+		width: 100%;
+		text-align: center;
+	}
+
+	.testimonials-cnt {
+		width: 100%;
+	}
+
+	.testimonials-cnt > div:nth-child(3) > span {
+		cursor: pointer;
+	}
+
+	.page-contrast > div:first-child {
+		font-size: 1.8rem;
+		line-height: 2.2rem;
+	}
+
+}

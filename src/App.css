@@ -1,0 +1,134 @@
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Poppins;
+  display: flex;
+  --bg: 120, 32, 240;
+  --text: 56, 56, 56;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /*background-color: rgb(240, 240, 240);*/
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: rgb(var(--bg));
+}
+
+.nav-items {
+  font-size: .6rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  font-weight: 500;
+}
+
+.nav-items > span {
+  cursor: pointer;
+}
+
+.navbar > button {
+  background-color: rgb(var(--bg));
+  color: white;
+  border: 0;
+  font-size: .62rem;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: none;
+}
+
+.footer {
+  width: 100%;
+  padding: 60px 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  color: rgb(100, 100, 100);
+  gap: 28px;
+  width: 30%;
+  font-size: .66rem;
+  font-weight: 500;
+}
+
+
+.footer-info > div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.footer-logo {
+  font-size: 1.28rem;
+  font-weight: 700;
+  color: rgb(56, 56, 56);
+}
+
+.footer-main {
+  display: flex;
+  gap: 4rem;
+}
+
+.footer-main-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: .66rem;
+  color: rgb(100, 100, 100);
+  font-weight: 500;
+}
+
+.footer-main-item > span:first-child {
+  font-size: .8rem;
+  font-weight: 700;
+  color: rgb(var(--text));
+}
+
+.footer-main-item > div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.sidebar, .sidebar-hide {
+  display: none;
+}
+
+.exit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 1.2rem;
+  padding: 6px 8px;
+}
